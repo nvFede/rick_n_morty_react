@@ -1,14 +1,11 @@
-import React from "react";
+import React from 'react';
 
-const DropDown = ({items}) => {
-
-  return (
-    <div className="relative w-52 lg:max-w-sm">
-       {/* {items.map((item, index) => {
-        {items}
-       })}; */}
-    </div>
-  );
+const DropDown = () => {
+    return (
+        <div>
+            
+        </div>
+    );
 };
 
 export default DropDown;

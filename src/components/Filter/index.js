@@ -20,16 +20,7 @@ const Filter = ({
 
   return (
     <div className="flex">
-      <div
-        onClick={clear}
-        className="pointer text-primary text-decoration-underline text-center mb-3"
-      >
-        Clear Filters
-      </div>
-
-      <Gender updatePageNumber={updatePageNumber} updateStatus={updateStatus} />
-      {/* <Status updatePageNumber={updatePageNumber} updateStatus={updateStatus} />
-      <Species updatePageNumber={updatePageNumber} updateStatus={updateStatus} /> */}
+     
     </div>
   );
 };
