@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/rick_n_morty_react/static/css/main.e8e35b6d.css",
+    "main.js": "/rick_n_morty_react/static/js/main.99e10e02.js",
+    "static/media/bg.png": "/rick_n_morty_react/static/media/bg.4de8cae9961269c805e0.png",
+    "static/media/fondo4.jpg": "/rick_n_morty_react/static/media/fondo4.55f007144e7442c18c8f.jpg",
+    "static/media/fondo3.png": "/rick_n_morty_react/static/media/fondo3.a97e92ff80687d2ad6d7.png",
+    "static/media/fondo.webp": "/rick_n_morty_react/static/media/fondo.08cb63e9f2cde8bce7a6.webp",
+    "static/media/fondo2.webp": "/rick_n_morty_react/static/media/fondo2.f42bf9e6ed23d347aef3.webp",
+    "static/media/logorick.png": "/rick_n_morty_react/static/media/logorick.b29f282afe34fe9bbefc.png",
+    "index.html": "/rick_n_morty_react/index.html",
+    "main.e8e35b6d.css.map": "/rick_n_morty_react/static/css/main.e8e35b6d.css.map",
+    "main.99e10e02.js.map": "/rick_n_morty_react/static/js/main.99e10e02.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e8e35b6d.css",
+    "static/js/main.99e10e02.js"
+  ]
+}
