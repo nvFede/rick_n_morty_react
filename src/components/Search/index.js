@@ -21,7 +21,7 @@ const Search = ({ setSearch, updatePageNumber }) => {
       />
       <button
         onClick={searchBtn}
-        className="bg-blue-500 h-10 hover:bg-blue-700 text-white font-bold py-1 px-5 rounded focus:outline-none focus:shadow-outline"
+        className="shadow-md bg-rnm-blue  h-10 hover:bg-rnm-blue border-rnm-blue border-2 hover:border-rnm-green text-white font-bold py-1 px-5 rounded focus:outline-none focus:shadow-outline"
       >
         Search
       </button>

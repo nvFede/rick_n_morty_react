@@ -11,16 +11,16 @@ const Navbar = () => {
           <span className="ml-20 -mt-8 absolute font-semibold">Wiki</span>
         </Link>
         <div className="navbar-nav fs-5">
-          <NavLink  className="px-2" to="/about">
+          <NavLink  className="px-2 uppercase text-sm" to="/about">
             About
           </NavLink>
-          <NavLink to="/" className="px-2">
+          <NavLink to="/" className="px-2 uppercase text-sm">
             Characters
           </NavLink>
-          <NavLink to="/episodes" className="px-2">
+          <NavLink to="/episodes" className="px-2 uppercase text-sm">
             Episodes
           </NavLink>
-          <NavLink  className="px-2" to="/location">
+          <NavLink  className="px-2 uppercase text-sm" to="/locations">
             Locations
           </NavLink>
         </div>
