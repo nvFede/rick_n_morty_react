@@ -24,7 +24,7 @@ function App() {
       </div>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/:id" element={<CardDetails />} />
+        <Route path="/characters/:id" element={<CardDetails />} />
 
         <Route path="/about" element={<About />} />
 
@@ -49,6 +49,7 @@ const Home = () => {
   let [gender, updateGender] = useState("");
   let [species, updateSpecies] = useState("");
 
+
   let api = `https://rickandmortyapi.com/api/character/?page=${pageNumber}&name=${search}&status=${status}&gender=${gender}&species=${species}`;
 
   useEffect(() => {
@@ -59,6 +60,8 @@ const Home = () => {
       });
     })();
   }, [api]);
+
+  
 
   return (
     <div className="App">
@@ -79,7 +82,8 @@ const Home = () => {
         </div>
 
         <div className="grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-6 mt-4 w-full  ">
-          {data && <Card page="/" characters={data} />}
+          {data && <Card page="/characters/" characters={data} />}
+        
         </div>
 
         {info && (
